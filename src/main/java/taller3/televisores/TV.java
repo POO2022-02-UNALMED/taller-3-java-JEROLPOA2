@@ -32,7 +32,11 @@ public class TV {
     }
 
     public void setVolumen(int volumen){
-        this.volumen = volumen;
+        if(this.volumen >= 0 && this.volumen <= 7){
+            this.volumen = volumen;
+        }
+        else{
+        }      
     }
 
     public void setCanal(int canal){
