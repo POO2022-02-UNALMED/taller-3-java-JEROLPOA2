@@ -76,6 +76,10 @@ public class TV {
         return this.control;
     }
 
+    public int getNumTV(){
+        return numTV;
+    }
+
     public void canalUp(){
         
         if(this.canal >= 0 && this.canal <= 120){
