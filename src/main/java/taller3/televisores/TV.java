@@ -40,8 +40,8 @@ public class TV {
 
     private static int numTV;
 
-    public void setNumTV(int numTV){
-        this.numTV = numTV;
+    public static void setNumTV(int numTV){
+        TV.numTV = numTV;
     }
 
     public void turnOn(){
@@ -70,6 +70,10 @@ public class TV {
 
     public Marca getMarca(){
         return this.marca;
+    }
+
+    public Control getControl(){
+        return this.control;
     }
 
     public void canalUp(){
