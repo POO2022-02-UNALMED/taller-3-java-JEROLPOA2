@@ -41,7 +41,7 @@ public class TV {
     private static int numTV;
 
     public static void setNumTV(int numTV){
-        TV.numTV = numTV;
+        TV.numTV++;
     }
 
     public void turnOn(){
