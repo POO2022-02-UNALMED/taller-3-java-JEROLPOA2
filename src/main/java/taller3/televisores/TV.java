@@ -16,6 +16,7 @@ public class TV {
         this.canal = 1;
         this.volumen = 1;
         this.precio = 500;
+        numTV++;
     }
 
     public void setMarca(Marca marca){
@@ -39,10 +40,6 @@ public class TV {
     }
 
     private static int numTV;
-
-    public static void setNumTV(int numTV){
-        TV.numTV = numTV;
-    }
 
     public void turnOn(){
         this.estado = true;
